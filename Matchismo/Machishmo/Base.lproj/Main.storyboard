@@ -370,21 +370,6 @@
     </scenes>
     <resources>
         <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
-        <image name="cardBack.png" width="47" height="38"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
