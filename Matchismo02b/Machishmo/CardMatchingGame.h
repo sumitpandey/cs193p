@@ -20,5 +20,7 @@
 -(Card *) cardAtIndex: (NSUInteger) index;
 
 @property (nonatomic, readonly) int score;
-@property (nonatomic, readonly) NSString *cardInfo;
+@property (nonatomic, readonly, strong) NSString *cardInfo;
+@property (nonatomic) BOOL gameMode;
+
 @end

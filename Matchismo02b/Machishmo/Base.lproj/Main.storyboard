@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="CardGameViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ulb-Mo-BqL">
@@ -323,12 +323,29 @@
                                     <action selector="resetGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Jqc-bK-qAO"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="EgF-54-8P9">
+                                <rect key="frame" x="15" y="483" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="0.55686277149999996" green="0.55686277149999996" blue="0.56078433989999998" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <action selector="gameSwitch:" destination="vXZ-lx-hvc" eventType="valueChanged" id="6ox-Q0-GCM"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Two Card Game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iWn-NE-DIh">
+                                <rect key="frame" x="72" y="488" width="209" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="gameModeLabel" destination="iWn-NE-DIh" id="2Mm-zx-3t6"/>
                         <outlet property="infoLabel" destination="zyn-GF-f7i" id="94V-QO-gjf"/>
                         <outlet property="scoreLabel" destination="veb-kO-gYw" id="RSy-Sf-Dfi"/>
+                        <outlet property="switchControl" destination="EgF-54-8P9" id="LoP-my-YUU"/>
                         <outletCollection property="cardButtons" destination="Ulb-Mo-BqL" id="g89-bm-o6g"/>
                         <outletCollection property="cardButtons" destination="eOr-cc-YLh" id="6OO-kD-MCr"/>
                         <outletCollection property="cardButtons" destination="N7p-Mt-wuo" id="OLt-GH-Gbw"/>
@@ -354,6 +371,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>

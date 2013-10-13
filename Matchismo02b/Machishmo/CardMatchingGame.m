@@ -17,6 +17,16 @@
 @end
 
 @implementation CardMatchingGame
+
+-(BOOL) gameMode
+{
+    if (!_gameMode) {
+        //no = 2 card game
+        _gameMode = NO;
+    }
+    return _gameMode;
+}
+
 //instantiate cards
 -(NSMutableArray *)cards
 {
@@ -76,7 +86,6 @@
     Card *card = [self cardAtIndex:index];
     if (!card.isUnplayable)
     {
-
         if (!card.isFaceUp)
         {
             self.cardInfo = [NSString stringWithFormat:@"Flipped up %@", card.contents];
@@ -84,20 +93,44 @@
             for (Card *otherCard in self.cards)
             {
                 if (otherCard.isFaceUp && !otherCard.isUnplayable) {
-                    //match takes an array of cards for a multicard match game, right now we are building a 2 card matching game
-                    int matchScore = [card match:@[otherCard]];
-                    if (matchScore)
-                    {
-                        otherCard.unplayable = YES;
-                        card.unplayable = YES;
-                        self.score += matchScore*MATCH_BONUS;
-                        self.cardInfo = [NSString stringWithFormat:@"%@ & %@ dont match! %d point penalty", card.contents, otherCard.contents, MISMATCH_PENALTY];
-                        self.cardInfo = [NSString stringWithFormat:@"Matched %@ & %@ for %d points", card.contents, otherCard.contents, MATCH_BONUS];                        
+                    if (self.gameMode == NO) {
+                        //match takes an array of cards for a multicard match game, right now we are building a 2 card matching game
+                        int matchScore = [card match:@[otherCard]];
+                        if (matchScore)
+                        {
+                            otherCard.unplayable = YES;
+                            card.unplayable = YES;
+                            self.score += matchScore*MATCH_BONUS;
+                            self.cardInfo = [NSString stringWithFormat:@"Matched %@ & %@ for %d points", card.contents, otherCard.contents, MATCH_BONUS];
+                        }
+                        else
+                        {
+                            self.score -= MISMATCH_PENALTY;
+                            self.cardInfo = [NSString stringWithFormat:@"%@ & %@ dont match! %d point penalty", card.contents, otherCard.contents, MISMATCH_PENALTY];
+                        }
                     }
-                    else
-                    {
-                        self.score -= MISMATCH_PENALTY;
-                        self.cardInfo = [NSString stringWithFormat:@"%@ & %@ dont match! %d point penalty", card.contents, otherCard.contents, MISMATCH_PENALTY];
+                    else{
+                        //three card game
+                        for (Card *anotherCard in self.cards) {
+                            if (anotherCard != otherCard) {
+                                if (anotherCard.isFaceUp && !anotherCard.isUnplayable) {
+                                    int matchScore = [card match:@[otherCard, anotherCard]];
+                                    if (matchScore)
+                                    {
+                                        anotherCard.unplayable = YES;
+                                        otherCard.unplayable = YES;
+                                        card.unplayable = YES;
+                                        self.score += matchScore*MATCH_BONUS;
+                                        self.cardInfo = [NSString stringWithFormat:@"Matched %@, %@ & %@ for %d points", card.contents, otherCard.contents, anotherCard.contents, MATCH_BONUS*2];
+                                    }
+                                    else
+                                    {
+                                        self.score -= MISMATCH_PENALTY;
+                                        self.cardInfo = [NSString stringWithFormat:@"%@, %@ & %@ dont match! %d point penalty", card.contents, otherCard.contents,anotherCard.contents, MISMATCH_PENALTY];
+                                    }
+                                }
+                            }
+                        }
                     }
                     break;
                 }

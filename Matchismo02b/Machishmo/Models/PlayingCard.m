@@ -67,14 +67,34 @@
 //overriding the card class' match algorithm to match for suits and rank as well.
 -(int) match:(NSArray *)otherCards{
     int score = 0;
+    int matchSuit = 0;
+    int matchRank = 0;
     //matching for a single card
-    if (otherCards.count == 1) {
+    if (otherCards.count == 1)
+    {
         PlayingCard *otherCard = [otherCards lastObject];
         if ([otherCard.suit isEqualToString:self.suit]) {
             score = 1;
         }
         else if (otherCard.rank == self.rank){
             score = 4;
+        }
+    }
+    else if (otherCards.count == 2)
+    {
+        for (PlayingCard *card in otherCards) {
+            if ([card.suit isEqualToString:self.suit]) {
+                matchSuit += 1;
+            }
+            else if (card.rank == self.rank){
+                matchRank += 1;
+            }
+        }
+        if (matchRank==2) {
+            score = matchRank*4;
+        }
+        else if (matchSuit==2){
+            score = matchSuit*1;
         }
     }
     return score;
