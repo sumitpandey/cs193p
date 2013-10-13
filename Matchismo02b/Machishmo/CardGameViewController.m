@@ -34,6 +34,7 @@
 
 -(void)updateUI
 {
+    UIImage *cardBackImage = [UIImage imageNamed:@"cardBack.png"];
     //cycle through all the buttons
     for (UIButton *button in self.cardButtons) {
         //get card at the first button
@@ -45,8 +46,13 @@
         button.selected = card.isFaceUp;
         //disable the card if its unplayable
         button.enabled = !card.isUnplayable;
-        
         button.alpha = card.isUnplayable ? 0.3 : 1.0;
+        if (!card.isFaceUp) {
+            //set card background
+            [button setImage:cardBackImage forState:UIControlStateNormal];
+        }else{
+            [button setImage:nil forState:UIControlStateNormal];
+        }
     }
     self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
     self.infoLabel.text = self.game.cardInfo;

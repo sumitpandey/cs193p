@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		95870B5A180877C0001BB832 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 95870B59180877C0001BB832 /* CardMatchingGame.m */; };
+		95B35F47180B14C500568DEC /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B35F46180B14C500568DEC /* cardBack.png */; };
 		95B7AD7B18009F7200EEB9A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B7AD7A18009F7200EEB9A3 /* Foundation.framework */; };
 		95B7AD7D18009F7200EEB9A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B7AD7C18009F7200EEB9A3 /* CoreGraphics.framework */; };
 		95B7AD7F18009F7200EEB9A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B7AD7E18009F7200EEB9A3 /* UIKit.framework */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		95870B58180877C0001BB832 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 		95870B59180877C0001BB832 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		95B35F46180B14C500568DEC /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardBack.png; path = Machishmo/cardBack.png; sourceTree = "<group>"; };
 		95B7AD7718009F7200EEB9A3 /* Machishmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machishmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B7AD7A18009F7200EEB9A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		95B7AD7C18009F7200EEB9A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -97,6 +99,7 @@
 		95B7AD6E18009F7200EEB9A3 = {
 			isa = PBXGroup;
 			children = (
+				95B35F46180B14C500568DEC /* cardBack.png */,
 				95B7AD8018009F7200EEB9A3 /* Machishmo */,
 				95B7AD9F18009F7300EEB9A3 /* MachishmoTests */,
 				95B7AD7918009F7200EEB9A3 /* Frameworks */,
@@ -267,6 +270,7 @@
 			files = (
 				95B7AD9318009F7200EEB9A3 /* Images.xcassets in Resources */,
 				95B7AD8518009F7200EEB9A3 /* InfoPlist.strings in Resources */,
+				95B35F47180B14C500568DEC /* cardBack.png in Resources */,
 				95B7AD8E18009F7200EEB9A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
