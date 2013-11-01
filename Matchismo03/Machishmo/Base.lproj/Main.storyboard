@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-438" y="-327"/>
         </scene>
-        <!--View Controller - Set-->
+        <!--Set Game View Controller - Set-->
         <scene sceneID="4cy-wf-Lw9">
             <objects>
-                <viewController id="gLR-5H-LYt" sceneMemberID="viewController">
+                <viewController id="gLR-5H-LYt" customClass="SetGameViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bPs-zW-jQv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
