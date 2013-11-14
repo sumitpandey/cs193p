@@ -1,5 +1,5 @@
 //
-//  CardGameViewController.h
+//  CardGameAppDelegate.h
 //  Machishmo
 //
 //  Created by sumit on 06/10/13.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GameViewController.h"
 
-@interface CardGameViewController : GameViewController
+@interface CardGameAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

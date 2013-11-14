@@ -26,7 +26,6 @@
     if (!_game) {
         _game = [[CardMatchingGame alloc] initWithCardCount:self.cardButtons.count
                                                   usingDeck:[[PlayingCardDeck alloc] init] withGameMode:NO];
-        NSLog(@"playing cards buttons: %d", self.cardButtons.count);
     }
     return _game;
 }
@@ -53,8 +52,32 @@
             [button setImage:nil forState:UIControlStateNormal];
         }
     }
-    [super updateUI];
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
+    self.infoLabel.text = self.game.cardInfo;
 }
 
+-(void) setCardButtons:(NSArray *)cardButtons
+{
+    //first do the setter stuff
+    _cardButtons = cardButtons;
+    //if the card buttons change the UI needs to update itself
+    [self updateUI];
+}
+
+- (IBAction)flipCard:(UIButton *)sender {
+    //letting the model flip the card
+    [self.game flipCardAtIndex:[self.cardButtons indexOfObject:sender]];
+    [self updateUI];
+    //setting is not happening everytime we are flipping, since we abstracted the method away, so everytime we get the same card.
+    //changing state of the button
+    //sender.selected = !sender.isSelected;
+}
+
+- (IBAction)resetGame:(UIButton *)sender {
+    //reset game
+    self.game = nil;
+    [self updateUI];
+    //NSLog(@"Game Mode %@\n", (self.game.gameMode?@"YES":@"NO"));
+}
 
 @end

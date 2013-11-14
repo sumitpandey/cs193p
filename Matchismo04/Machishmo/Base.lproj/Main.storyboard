@@ -31,7 +31,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="NFo-5Z-LWU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NFo-5Z-LWU">
                                 <rect key="frame" x="14" y="86" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908084869385" green="0.96078437566757202" blue="0.81960791349411011" alpha="1" colorSpace="deviceRGB"/>
@@ -40,7 +40,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="MQt-Wx-Pk9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Bzo-VD-w8l">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bzo-VD-w8l">
                                 <rect key="frame" x="89" y="86" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -49,7 +49,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="FVp-nH-Hwt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="MVd-ii-TGe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MVd-ii-TGe">
                                 <rect key="frame" x="164" y="86" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -58,7 +58,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="MXi-BZ-YgS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="JSB-sj-GqK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JSB-sj-GqK">
                                 <rect key="frame" x="239" y="86" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -67,7 +67,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="OJl-Ba-N1l"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="cM4-4O-dYV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cM4-4O-dYV">
                                 <rect key="frame" x="14" y="146" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -76,7 +76,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="ODO-wy-btV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Zps-nQ-7KX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zps-nQ-7KX">
                                 <rect key="frame" x="89" y="146" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -85,16 +85,13 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="hX8-GB-YiV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="bQH-bj-8G6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bQH-bj-8G6">
                                 <rect key="frame" x="164" y="146" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="2ha-88-PWB"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="ezx-A6-0aP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ezx-A6-0aP">
                                 <rect key="frame" x="239" y="146" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -103,7 +100,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="lij-Vb-XUU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="6S5-gL-QTU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6S5-gL-QTU">
                                 <rect key="frame" x="14" y="206" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -112,7 +109,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="Ype-ye-7Th"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="UnC-9x-H7a">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UnC-9x-H7a">
                                 <rect key="frame" x="89" y="206" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -121,7 +118,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="NCO-wk-kcI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="CPi-4f-ASv">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CPi-4f-ASv">
                                 <rect key="frame" x="164" y="206" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -130,7 +127,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="p5p-6J-5id"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="QiL-zO-fSd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QiL-zO-fSd">
                                 <rect key="frame" x="239" y="206" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -139,7 +136,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="ygH-MU-SE8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="pit-W9-ANk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pit-W9-ANk">
                                 <rect key="frame" x="14" y="266" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -148,7 +145,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="wuA-hM-RFZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="RJs-XL-sFc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RJs-XL-sFc">
                                 <rect key="frame" x="89" y="266" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -157,7 +154,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="0Ho-Ld-r5o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="6uW-qv-1u7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6uW-qv-1u7">
                                 <rect key="frame" x="164" y="266" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -166,7 +163,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="QWu-Tw-9tE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Uz0-W3-ftw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Uz0-W3-ftw">
                                 <rect key="frame" x="239" y="266" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -175,7 +172,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="grG-Og-Fhq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="CvF-Uf-NsZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CvF-Uf-NsZ">
                                 <rect key="frame" x="14" y="326" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -184,7 +181,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="PZb-wV-tbD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="5XZ-7W-pgs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5XZ-7W-pgs">
                                 <rect key="frame" x="89" y="326" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -193,7 +190,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="mDj-rc-3WR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="6Li-ov-pbR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Li-ov-pbR">
                                 <rect key="frame" x="164" y="326" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -202,7 +199,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="Raf-6Q-x49"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="mzL-cV-FDE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mzL-cV-FDE">
                                 <rect key="frame" x="239" y="326" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -211,7 +208,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="xb2-fi-kU7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="B9f-Xf-m3H">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B9f-Xf-m3H">
                                 <rect key="frame" x="14" y="386" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -220,7 +217,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="gEW-nK-aN0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Oin-z6-jxd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Oin-z6-jxd">
                                 <rect key="frame" x="89" y="386" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -229,7 +226,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="YHB-ks-elV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="RmX-oR-ydV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RmX-oR-ydV">
                                 <rect key="frame" x="164" y="386" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -238,7 +235,7 @@
                                     <action selector="flipCard:" destination="gLR-5H-LYt" eventType="touchUpInside" id="yeV-pG-d8L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="rLh-7I-ixV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rLh-7I-ixV">
                                 <rect key="frame" x="239" y="386" width="68" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.96078437569999997" blue="0.81960791349999995" alpha="1" colorSpace="deviceRGB"/>
@@ -248,7 +245,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LkM-nJ-gSR">
-                                <rect key="frame" x="14" y="25" width="162" height="21"/>
+                                <rect key="frame" x="14" y="25" width="64" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -265,7 +262,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start the game by tapping on a card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="plu-Uy-2FX">
-                                <rect key="frame" x="14" y="467" width="293" height="21"/>
+                                <rect key="frame" x="14" y="467" width="233" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -302,6 +299,30 @@
                         <outletCollection property="cardButtons" destination="Oin-z6-jxd" id="07b-dp-Xxm"/>
                         <outletCollection property="cardButtons" destination="RmX-oR-ydV" id="sFx-aI-U88"/>
                         <outletCollection property="cardButtons" destination="rLh-7I-ixV" id="qMz-ZW-Qbt"/>
+                        <outletCollection property="cardArray" destination="NFo-5Z-LWU" id="ZjW-nD-jMp"/>
+                        <outletCollection property="cardArray" destination="Bzo-VD-w8l" id="YXi-dR-NPl"/>
+                        <outletCollection property="cardArray" destination="MVd-ii-TGe" id="sF7-Ke-z0e"/>
+                        <outletCollection property="cardArray" destination="JSB-sj-GqK" id="rTH-du-5S8"/>
+                        <outletCollection property="cardArray" destination="cM4-4O-dYV" id="7A2-b5-l0O"/>
+                        <outletCollection property="cardArray" destination="Zps-nQ-7KX" id="akt-Eq-qRz"/>
+                        <outletCollection property="cardArray" destination="bQH-bj-8G6" id="TkC-gc-oIp"/>
+                        <outletCollection property="cardArray" destination="ezx-A6-0aP" id="MaR-VK-jQk"/>
+                        <outletCollection property="cardArray" destination="QiL-zO-fSd" id="5Zr-Y9-KaU"/>
+                        <outletCollection property="cardArray" destination="CPi-4f-ASv" id="Ah0-q4-pmi"/>
+                        <outletCollection property="cardArray" destination="UnC-9x-H7a" id="J4p-8Z-pko"/>
+                        <outletCollection property="cardArray" destination="6S5-gL-QTU" id="tl5-xY-DJy"/>
+                        <outletCollection property="cardArray" destination="pit-W9-ANk" id="aVK-CI-4hK"/>
+                        <outletCollection property="cardArray" destination="RJs-XL-sFc" id="qgM-5E-KnC"/>
+                        <outletCollection property="cardArray" destination="6uW-qv-1u7" id="oPg-cN-sC4"/>
+                        <outletCollection property="cardArray" destination="Uz0-W3-ftw" id="JQC-1s-K2u"/>
+                        <outletCollection property="cardArray" destination="mzL-cV-FDE" id="tbj-by-mRL"/>
+                        <outletCollection property="cardArray" destination="6Li-ov-pbR" id="XMA-PJ-bJy"/>
+                        <outletCollection property="cardArray" destination="5XZ-7W-pgs" id="MNl-Tt-QyK"/>
+                        <outletCollection property="cardArray" destination="CvF-Uf-NsZ" id="V3Z-LM-cqo"/>
+                        <outletCollection property="cardArray" destination="B9f-Xf-m3H" id="3Ap-Fo-T0E"/>
+                        <outletCollection property="cardArray" destination="Oin-z6-jxd" id="DHR-tB-E5k"/>
+                        <outletCollection property="cardArray" destination="RmX-oR-ydV" id="GlW-y3-3Xz"/>
+                        <outletCollection property="cardArray" destination="rLh-7I-ixV" id="WXD-ac-kHQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eCH-yw-T4t" userLabel="First Responder" sceneMemberID="firstResponder"/>

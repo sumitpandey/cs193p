@@ -12,7 +12,7 @@
 
 +(NSArray *) validSuits
 {
-    return @[@"■", @"●", @"▲"];
+    return @[@"◻︎", @"○", @"△"];
 }
 
 +(NSArray *) validColors
@@ -32,9 +32,8 @@
 
 -(NSString *)contents
 {
-    //initialize this, string by appending string causes problems with nil
     NSString *content = @"";
-    for (int i = 1; i<=self.rank; i++) {
+    for (int i = 0; i<=self.rank; i++) {
         content = [content stringByAppendingString:self.suit];
     }
     return content;
@@ -88,38 +87,6 @@
     if ([[SetCard validSuits] containsObject:suit]) {
         _suit = suit;
     }
-}
-
--(int) match:(NSArray *)otherCards
-{
-    //matching in set is only dependent on color and stroke
-    //cases: same suit, rank, color, stroke/different suit, rank, color, stroke
-    int score = 0;
-    int matchColor = 0;
-    int matchStroke = 0;
-    int matchSuit = 0;
-    int matchRank = 0;
-    
-    if(otherCards.count == 2){
-        for (SetCard *otherCard in otherCards) {
-            if ([otherCard.suit isEqualToString:self.suit]) {
-                matchSuit++;
-            }
-            if (otherCard.rank == self.rank) {
-                matchRank++;
-            }
-            if ([otherCard.color isEqual:self.color]) {
-                matchColor++;
-            }
-            if ([otherCard.stroke isEqualToNumber:self.stroke]) {
-                matchStroke++;
-            }
-        }
-        if (((matchSuit == 2)||(matchSuit == 0))&&((matchStroke == 2)||(matchStroke == 0))&&((matchRank == 2)||(matchRank == 0))&&((matchColor == 2)||(matchColor == 0))) {
-            score = 4;
-        }
-    }
-    return score;
 }
 
 @end

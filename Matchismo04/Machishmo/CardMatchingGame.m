@@ -111,11 +111,10 @@
                         }
                     }
                     else{
-                        //three card game - set
+                        //three card game
                         for (Card *anotherCard in self.cards) {
                             if (anotherCard != otherCard) {
                                 if (anotherCard.isFaceUp && !anotherCard.isUnplayable) {
-                                    //calls the match function of the subclass - see polymorphism, http://stackoverflow.com/questions/18376508/why-does-my-superclass-object-call-its-subclass-method/18376811#18376811
                                     int matchScore = [card match:@[otherCard, anotherCard]];
                                     if (matchScore)
                                     {
@@ -123,7 +122,7 @@
                                         otherCard.unplayable = YES;
                                         card.unplayable = YES;
                                         self.score += matchScore*MATCH_BONUS;
-                                        self.cardInfo = [NSString stringWithFormat:@"Matched %@, %@ & %@ for %d points", card.contents, otherCard.contents, anotherCard.contents, MATCH_BONUS*matchScore];
+                                        self.cardInfo = [NSString stringWithFormat:@"Matched %@, %@ & %@ for %d points", card.contents, otherCard.contents, anotherCard.contents, MATCH_BONUS*2];
                                     }
                                     else
                                     {
